@@ -25,3 +25,7 @@ WSL2 is now AWS CLI ready<br>
 
 ![image](https://github.com/qaswarh/AWS-via-WSL2/assets/47313728/1e10a2f0-aeef-44a2-af1b-ea18ff7cb114)
 
+![image](https://github.com/qaswarh/AWS-via-WSL2/assets/47313728/45c2741a-7c4d-485d-94c4-7cdd58425bca)
+
+
+
