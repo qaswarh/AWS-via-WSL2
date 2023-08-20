@@ -27,6 +27,6 @@ WSL2 is now AWS CLI ready<br>
 
 ![image](https://github.com/qaswarh/AWS-via-WSL2/assets/47313728/872ad8db-ab7a-41c1-9328-4afadd8aa488)
 
+Install [aws-iam-authenticator](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html)
 
-
-
+Install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
