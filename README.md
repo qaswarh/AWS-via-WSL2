@@ -17,7 +17,7 @@ sudo apt install python3-pip
 sudo pip3 install awscli
 aws configure
 ```
-For awscliv2, follow the procedure [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) and configure the access credentials again
+For awscliv2, follow the procedure [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) and configure the access credentials
 
 Check users<br>
 
