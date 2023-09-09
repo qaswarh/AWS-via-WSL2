@@ -36,4 +36,5 @@ Install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 Install [Terraform](https://developer.hashicorp.com/terraform/downloads?ajs_aid=cf16efbb-6de3-4e7e-88b8-1b2434d684d5&product_intent=terraform)
 
 Terraform AWS VPC [Provision Instructions](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest)
+
 [Provision an EKS cluster (AWS)](https://developer.hashicorp.com/terraform/tutorials/kubernetes/eks)
