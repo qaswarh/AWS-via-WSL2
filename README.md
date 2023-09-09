@@ -37,4 +37,4 @@ Install [Terraform](https://developer.hashicorp.com/terraform/downloads?ajs_aid=
 
 Terraform AWS VPC [Provision Instructions](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest)
 
-[Provision an EKS cluster (AWS)](https://developer.hashicorp.com/terraform/tutorials/kubernetes/eks)
+Provision an [EKS cluster (AWS)](https://developer.hashicorp.com/terraform/tutorials/kubernetes/eks)
