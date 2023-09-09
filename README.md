@@ -32,3 +32,5 @@ WSL2 is now AWS CLI ready<br>
 Install [aws-iam-authenticator](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html)
 
 Install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
+
+Install [Terraform](https://developer.hashicorp.com/terraform/downloads?ajs_aid=cf16efbb-6de3-4e7e-88b8-1b2434d684d5&product_intent=terraform)
