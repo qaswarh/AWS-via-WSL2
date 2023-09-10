@@ -29,12 +29,14 @@ WSL2 is now AWS CLI ready<br>
 
 ![image](https://github.com/qaswarh/AWS-via-WSL2/assets/47313728/872ad8db-ab7a-41c1-9328-4afadd8aa488)
 
-Install [aws-iam-authenticator](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html)
+Install [aws-iam-authenticator](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html)<br>
+Install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)<br>
+Install [Terraform](https://developer.hashicorp.com/terraform/downloads?ajs_aid=cf16efbb-6de3-4e7e-88b8-1b2434d684d5&product_intent=terraform)<br>
+Terraform AWS VPC [Provision Instructions](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest)<br>
+Provision an [EKS cluster (AWS)](https://developer.hashicorp.com/terraform/tutorials/kubernetes/eks) with Terraform<br>
+Resource [aws_eks_cluster](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eks_cluster.html) depends on:<br>
+[AmazonEKSClusterPolicy](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonEKSClusterPolicy.html)<br>
+[AmazonEKSServicePolicy](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonEKSServicePolicy.html)<br>
 
-Install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 
-Install [Terraform](https://developer.hashicorp.com/terraform/downloads?ajs_aid=cf16efbb-6de3-4e7e-88b8-1b2434d684d5&product_intent=terraform)
 
-Terraform AWS VPC [Provision Instructions](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest)
-
-Provision an [EKS cluster (AWS)](https://developer.hashicorp.com/terraform/tutorials/kubernetes/eks) with Terraform
