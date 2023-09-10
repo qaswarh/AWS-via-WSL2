@@ -37,7 +37,7 @@ Provision an [EKS cluster (AWS)](https://developer.hashicorp.com/terraform/tutor
 [aws_eks_node_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/eks_node_group.html?lang=typescript) which depends on [AmazonEKSWorkerNodePolicy](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonEKSWorkerNodePolicy.html), [AmazonEKS_CNI_Policy](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonEKS_CNI_Policy.html) and [AmazonEC2ContainerRegistryReadOnly](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonEC2ContainerRegistryReadOnly.html)
 vpc.tf will use [Provision Instructions](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest) of Terraform AWS VPC Module. vpc_config in ekscluster.tf will use subnets from vpc.tf<br>
 desired, max and min sizes all 1 in scaling_config to cluster charges minimum<br>
-resource, policy_arn and role for eks_cluster and eks_nodes are defined in iam.tf to have assume_role_policy as per [Amazon EKS cluster IAM role](https://docs.aws.amazon.com/eks/latest/userguide/service_IAM_role.html)<br>
+resource, policy_arn and role for eks_cluster & eks_nodes are defined in iam.tf to have assume_role_policy as per [Amazon EKS cluster IAM role](https://docs.aws.amazon.com/eks/latest/userguide/service_IAM_role.html)<br>
 
 
 
