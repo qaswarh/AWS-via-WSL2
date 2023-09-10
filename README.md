@@ -35,7 +35,7 @@ Install [Terraform](https://developer.hashicorp.com/terraform/downloads?ajs_aid=
 Terraform AWS VPC [Provision Instructions](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest)<br>
 Provision an [EKS cluster (AWS)](https://developer.hashicorp.com/terraform/tutorials/kubernetes/eks) with Terraform<br>
 [aws_eks_cluster](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eks_cluster.html) depends on [AmazonEKSClusterPolicy](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonEKSClusterPolicy.html) and [AmazonEKSServicePolicy](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonEKSServicePolicy.html)<br>
-
+[aws_eks_node_group](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/eks_node_group.html?lang=typescript) depends on [AmazonEKSWorkerNodePolicy](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonEKSWorkerNodePolicy.html), [AmazonEKS_CNI_Policy](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonEKS_CNI_Policy.html) and [AmazonEC2ContainerRegistryReadOnly](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonEC2ContainerRegistryReadOnly.html)
 
 
 
