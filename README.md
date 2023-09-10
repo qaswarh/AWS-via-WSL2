@@ -34,9 +34,7 @@ Install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 Install [Terraform](https://developer.hashicorp.com/terraform/downloads?ajs_aid=cf16efbb-6de3-4e7e-88b8-1b2434d684d5&product_intent=terraform)<br>
 Terraform AWS VPC [Provision Instructions](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest)<br>
 Provision an [EKS cluster (AWS)](https://developer.hashicorp.com/terraform/tutorials/kubernetes/eks) with Terraform<br>
-Resource [aws_eks_cluster](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eks_cluster.html) depends on:<br>
-[AmazonEKSClusterPolicy](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonEKSClusterPolicy.html)<br>
-[AmazonEKSServicePolicy](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonEKSServicePolicy.html)<br>
+[aws_eks_cluster](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eks_cluster.html) depends on [AmazonEKSClusterPolicy](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonEKSClusterPolicy.html) and [AmazonEKSServicePolicy](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonEKSServicePolicy.html)<br>
 
 
 
